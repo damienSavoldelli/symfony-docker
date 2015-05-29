@@ -23,7 +23,7 @@ Answer composer's question for the database connection, smtp and others (you can
 After installation with composer finish run
 
 <pre>
-  sh run.sh env
+  sh run.sh dev
   or
   sh run.sh prod
 </pre>
