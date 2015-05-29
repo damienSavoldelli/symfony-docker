@@ -23,8 +23,16 @@ Answer composer's question for the database connection, smtp and others (you can
 After installation with composer finish run
 
 <pre>
-  sh run.sh
+  sh run.sh env
+  or
+  sh run.sh prod
 </pre>
+
+You can specify some options in the sh file
+
+- port => the external port use for accesing the database
+- DOMAIN_NAME the name of the project
+- FILE_NAME the name of the folder user for the docker persistence
 
 The script will give you information about the database connection from the docker image
 
