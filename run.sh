@@ -1,7 +1,7 @@
 #!/bin/sh
-port=53200
-DOMAIN_NAME="project.app"
-FILE_NAME="project_app"
+port=53201
+DOMAIN_NAME="project1.app"
+FILE_NAME="project1_app"
 if [ -z "$1" ]
     then
         echo "Info: No Environment is given will take prod as <env>"
