@@ -6,6 +6,7 @@ base symfony project with docker features
 - docker installed
 - current user in docker group
 - php cli enabled
+- php 5.4 minimum (for the built in server)
 
 # How to use it
 clone this project
@@ -35,5 +36,9 @@ You can specify some options in the sh file
 - FILE_NAME the name of the folder user for the docker persistence
 
 The script will give you information about the database connection from the docker image
+
+And it runs and built in web server (you can specify the host and port at the end of the script)
+
+Your application will be accessible through 127.0.0.1:8050/app_dev.php
 
 that's all folks
