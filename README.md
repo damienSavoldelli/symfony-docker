@@ -31,9 +31,9 @@ After installation with composer finish run
 
 You can specify some options in the sh file
 
-- port => the external port use for accesing the database
-- DOMAIN_NAME the name of the project
-- FILE_NAME the name of the folder user for the docker persistence
+- port       : the external port use for accesing the database
+- DOMAIN_NAME: the name of the project
+- FILE_NAME  : the name of the folder user for the docker persistence
 
 The script will give you information about the database connection from the docker image
 
